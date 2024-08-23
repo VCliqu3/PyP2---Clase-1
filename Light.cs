@@ -36,7 +36,7 @@ namespace Clase1Test
                     GoodLogic();
                     break;
                 case LightCondition.SemiBroken:
-                    SemibrokenLogic();
+                    SemiBrokenLogic();
                     break;
                 case LightCondition.Broken:
                     BrokenLogic();
