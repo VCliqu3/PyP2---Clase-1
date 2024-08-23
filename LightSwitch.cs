@@ -17,7 +17,8 @@ namespace Clase1Test
         {
             foreach(Light light in lights)
             {
-
+                if (light.lightCondition == LightCondition.Broken) return;
+                //TurnOn
             }
         }
     } 
